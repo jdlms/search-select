@@ -64,7 +64,7 @@ const searchClient = algoliasearch(
   import.meta.env.VITE_ALGOLIAKEY
 );
 
-export function Example() {
+export function AlgoliaExample() {
   return (
     <InstantSearch indexName="dummydata" searchClient={searchClient}>
       Algolia

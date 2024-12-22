@@ -1,9 +1,9 @@
-import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { ComboBoxExample } from "./ComboBoxExample";
-import { Example } from "./AlgoliaInstantSearch";
+import { AlgoliaExample } from "./AlgoliaInstantSearch";
+import FuseSelect from "./Fuse";
 
 function App() {
   return (
@@ -16,9 +16,11 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <p>Basic Downshift example:</p>
       <ComboBoxExample />
-
-      <Example />
+      <AlgoliaExample />
+      <p>Fuse Example:</p>
+      <FuseSelect />
     </>
   );
 }
