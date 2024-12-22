@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { ComboBoxExample } from "./ComboBoxExample";
+import { Example } from "./AlgoliaInstantSearch";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         </a>
       </div>
       <ComboBoxExample />
+
+      <Example />
     </>
   );
 }
